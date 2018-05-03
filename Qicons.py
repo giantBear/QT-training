@@ -1,5 +1,8 @@
 #from https://joekuan.wordpress.com/2015/09/23/list-of-qt-icons/
 #List of QIcon
+#In Cpp use as:
+#QPushButtonPointer->setIcon(style()->standardIcon(QStyle::SP_DialogApplyButton));
+#style() is key!
 
 import sys
 from PyQt5.QtCore import *
